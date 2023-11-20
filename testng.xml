@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/Mohamed/ITI Intenssive Boot Camp 04-07-2023/Graduation Project/Individual (Web Manual &amp; Automation)/Individual-GP-Web-Automation/src/test/java">
+        <classes>
+            <class name="signUpTests.SignUpTests1">
+                <methods>
+                    <include name="testSuccessfullSignUp"/>
+                </methods>
+            </class>
+            <class name="signUpTests.SignUpTests2">
+                <methods>
+                    <include name="testFailedSingUpWithInValidEmailRestricted"/>
+                </methods>
+            </class>
+            <class name="signUpTests.SignUpTests3">
+                <methods>
+                    <include name="testFailedSingUpWithInValidEmailRestricted2"/>
+                </methods>
+            </class>
+            <class name="loginTests.LoginTests1">
+                <methods>
+                    <include name="testSuccessfullLoginWithValidEmailAndValidPassword"/>
+                </methods>
+            </class>
+            <class name="loginTests.LoginTests2">
+                <methods>
+                    <include name="testFailedLoginWithInValidEmailRestricted"/>
+                </methods>
+            </class>
+            <class name="loginTests.LoginTests3">
+                <methods>
+                    <include name="testFailedLoginWithInValidEmailRestricted2"/>
+                </methods>
+            </class>
+            <class name="loginTests.LoginTests4">
+                <methods>
+                    <include name="testFailedLoginWithInValidEmailRestricted3"/>
+                </methods>
+            </class>
+            <class name="loginTests.LoginTests5">
+                <methods>
+                    <include name="testFailedLoginWithValidEmailAndInValidPasswordRestricted"/>
+                </methods>
+            </class>
+            <class name="addToCartTests.AddToCartTests">
+                <methods>
+                    <include name="testSuccessfullAddToCart"/>
+                </methods>
+            </class>
+            <class name="addToWishList.AddToWishListTests">
+                <methods>
+                    <include name="testSuccessfullAddToWishList"/>
+                </methods>
+            </class>
+            <class name="addToWishList.RemoveFromWishList">
+                <methods>
+                    <include name="testSuccessfullRemoveFromWishList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
